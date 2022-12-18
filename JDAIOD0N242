@@ -1,0 +1,333 @@
+                game.StarterGui:SetCore("SendNotification", {
+                    Title = "This is only FE sounds";
+                    Text = "Warning",
+                    Duration = 10
+                })
+                                game.StarterGui:SetCore("SendNotification", {
+                    Title = " modified script made by";
+                    Text = "Interested#8551",
+                    Duration = 5
+                })
+                
+
+
+game.Players.LocalPlayer.Chatted:Connect(function(msg)
+    if msg == "Insta Kill!" then
+        function Play(ID, STOP)
+	if game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("[Boombox]") then
+		local Tool = nil
+		game:GetService("Players").LocalPlayer.Backpack["[Boombox]"].Parent = game:GetService("Players").LocalPlayer.Character
+		game:GetService("ReplicatedStorage").MainEvent:FireServer("Boombox", ID)
+		game:GetService("Players").LocalPlayer.Character["[Boombox]"].RequiresHandle = false
+          if game:GetService("Players").LocalPlayer.Character["[Boombox]"]:FindFirstChild("Handle") then
+            game:GetService("Players").LocalPlayer.Character["[Boombox]"].Handle:Destroy()
+          end
+          game:GetService("Players").LocalPlayer.Character["[Boombox]"].Parent = game:GetService("Players").LocalPlayer.Backpack
+          game:GetService("Players").LocalPlayer.PlayerGui.MainScreenGui.BoomboxFrame.Visible = false
+          if Tool ~= true then
+              if Tool then
+                  Tool.Parent = game:GetService("Players").LocalPlayer.Character
+              end
+          end
+          if STOP == true then
+            game:GetService("Players").LocalPlayer.Character.LowerTorso:WaitForChild("BOOMBOXSOUND")
+                local cor = coroutine.wrap(function()
+                  repeat wait() until game:GetService("Players").LocalPlayer.Character.LowerTorso.BOOMBOXSOUND.SoundId == "rbxassetid://"..ID and game:GetService("Players").LocalPlayer.Character.LowerTorso.BOOMBOXSOUND.TimeLength > 0.0001
+                  OriginalKeyUpValue = OriginalKeyUpValue+1
+                  Stop(ID, OriginalKeyUpValue)
+				end)
+			cor()
+		end
+	end
+end
+Play(131961137,true)
+wait(2)
+game:GetService("Players").LocalPlayer.Character.LowerTorso.BOOMBOXSOUND:Stop()
+    end
+end)
+game.Players.LocalPlayer.Chatted:Connect(function(msg)
+    if msg == "Max Ammo!" then
+        function Play(ID, STOP)
+	if game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("[Boombox]") then
+		local Tool = nil
+		game:GetService("Players").LocalPlayer.Backpack["[Boombox]"].Parent = game:GetService("Players").LocalPlayer.Character
+		game:GetService("ReplicatedStorage").MainEvent:FireServer("Boombox", ID)
+		game:GetService("Players").LocalPlayer.Character["[Boombox]"].RequiresHandle = false
+          if game:GetService("Players").LocalPlayer.Character["[Boombox]"]:FindFirstChild("Handle") then
+            game:GetService("Players").LocalPlayer.Character["[Boombox]"].Handle:Destroy()
+          end
+          game:GetService("Players").LocalPlayer.Character["[Boombox]"].Parent = game:GetService("Players").LocalPlayer.Backpack
+          game:GetService("Players").LocalPlayer.PlayerGui.MainScreenGui.BoomboxFrame.Visible = false
+          if Tool ~= true then
+              if Tool then
+                  Tool.Parent = game:GetService("Players").LocalPlayer.Character
+              end
+          end
+          if STOP == true then
+            game:GetService("Players").LocalPlayer.Character.LowerTorso:WaitForChild("BOOMBOXSOUND")
+                local cor = coroutine.wrap(function()
+                  repeat wait() until game:GetService("Players").LocalPlayer.Character.LowerTorso.BOOMBOXSOUND.SoundId == "rbxassetid://"..ID and game:GetService("Players").LocalPlayer.Character.LowerTorso.BOOMBOXSOUND.TimeLength > 0.0001
+                  OriginalKeyUpValue = OriginalKeyUpValue+1
+                  Stop(ID, OriginalKeyUpValue)
+				end)
+			cor()
+		end
+	end
+end
+Play(131062752,true)
+wait(5)
+game:GetService("Players").LocalPlayer.Character.LowerTorso.BOOMBOXSOUND:Stop()
+    end
+end)
+game.Players.LocalPlayer.Chatted:Connect(function(msg)
+    if msg == "AHHHA" then
+        function Play(ID, STOP)
+	if game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("[Boombox]") then
+		local Tool = nil
+		game:GetService("Players").LocalPlayer.Backpack["[Boombox]"].Parent = game:GetService("Players").LocalPlayer.Character
+		game:GetService("ReplicatedStorage").MainEvent:FireServer("Boombox", ID)
+		game:GetService("Players").LocalPlayer.Character["[Boombox]"].RequiresHandle = false
+          if game:GetService("Players").LocalPlayer.Character["[Boombox]"]:FindFirstChild("Handle") then
+            game:GetService("Players").LocalPlayer.Character["[Boombox]"].Handle:Destroy()
+          end
+          game:GetService("Players").LocalPlayer.Character["[Boombox]"].Parent = game:GetService("Players").LocalPlayer.Backpack
+          game:GetService("Players").LocalPlayer.PlayerGui.MainScreenGui.BoomboxFrame.Visible = false
+          if Tool ~= true then
+              if Tool then
+                  Tool.Parent = game:GetService("Players").LocalPlayer.Character
+              end
+          end
+          if STOP == true then
+            game:GetService("Players").LocalPlayer.Character.LowerTorso:WaitForChild("BOOMBOXSOUND")
+                local cor = coroutine.wrap(function()
+                  repeat wait() until game:GetService("Players").LocalPlayer.Character.LowerTorso.BOOMBOXSOUND.SoundId == "rbxassetid://"..ID and game:GetService("Players").LocalPlayer.Character.LowerTorso.BOOMBOXSOUND.TimeLength > 0.0001
+                  OriginalKeyUpValue = OriginalKeyUpValue+1
+                  Stop(ID, OriginalKeyUpValue)
+				end)
+			cor()
+		end
+	end
+end
+Play(1245997245,true)
+wait(17)
+game:GetService("Players").LocalPlayer.Character.LowerTorso.BOOMBOXSOUND:Stop()
+    end
+end)
+plr = game.Players.LocalPlayer
+ 
+hum = plr.Character.HumanoidRootPart
+ 
+mouse = plr:GetMouse()
+ 
+ 
+ 
+mouse.KeyDown:connect(function(key)
+ 
+if key == "q" then
+    function Play(ID, STOP)
+        if game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("[Boombox]") then
+            local Tool = nil
+            game:GetService("Players").LocalPlayer.Backpack["[Boombox]"].Parent = game:GetService("Players").LocalPlayer.Character
+            game:GetService("ReplicatedStorage").MainEvent:FireServer("Boombox", ID)
+            game:GetService("Players").LocalPlayer.Character["[Boombox]"].RequiresHandle = false
+              if game:GetService("Players").LocalPlayer.Character["[Boombox]"]:FindFirstChild("Handle") then
+                game:GetService("Players").LocalPlayer.Character["[Boombox]"].Handle:Destroy()
+              end
+              game:GetService("Players").LocalPlayer.Character["[Boombox]"].Parent = game:GetService("Players").LocalPlayer.Backpack
+              game:GetService("Players").LocalPlayer.PlayerGui.MainScreenGui.BoomboxFrame.Visible = false
+              if Tool ~= true then
+                  if Tool then
+                      Tool.Parent = game:GetService("Players").LocalPlayer.Character
+                  end
+              end
+              if STOP == true then
+                game:GetService("Players").LocalPlayer.Character.LowerTorso:WaitForChild("BOOMBOXSOUND")
+                    local cor = coroutine.wrap(function()
+                      repeat wait() until game:GetService("Players").LocalPlayer.Character.LowerTorso.BOOMBOXSOUND.SoundId == "rbxassetid://"..ID and game:GetService("Players").LocalPlayer.Character.LowerTorso.BOOMBOXSOUND.TimeLength > 0.0001
+                      OriginalKeyUpValue = OriginalKeyUpValue+1
+                      Stop(ID, OriginalKeyUpValue)
+                    end)
+                cor()
+            end
+        end
+    end
+if mouse.Target then
+
+hum.CFrame = CFrame.new(mouse.Hit.x, mouse.Hit.y + 5, mouse.Hit.z)
+        Play(4553891293,true)
+    wait(9)
+        game:GetService("Players").LocalPlayer.Character.LowerTorso.BOOMBOXSOUND:Stop()
+end
+ 
+end
+end)
+game.Players.LocalPlayer.Chatted:Connect(function(msg)
+    if msg == "Carpenter!" then
+        function Play(ID, STOP)
+	if game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("[Boombox]") then
+		local Tool = nil
+		game:GetService("Players").LocalPlayer.Backpack["[Boombox]"].Parent = game:GetService("Players").LocalPlayer.Character
+		game:GetService("ReplicatedStorage").MainEvent:FireServer("Boombox", ID)
+		game:GetService("Players").LocalPlayer.Character["[Boombox]"].RequiresHandle = false
+          if game:GetService("Players").LocalPlayer.Character["[Boombox]"]:FindFirstChild("Handle") then
+            game:GetService("Players").LocalPlayer.Character["[Boombox]"].Handle:Destroy()
+          end
+          game:GetService("Players").LocalPlayer.Character["[Boombox]"].Parent = game:GetService("Players").LocalPlayer.Backpack
+          game:GetService("Players").LocalPlayer.PlayerGui.MainScreenGui.BoomboxFrame.Visible = false
+          if Tool ~= true then
+              if Tool then
+                  Tool.Parent = game:GetService("Players").LocalPlayer.Character
+              end
+          end
+          if STOP == true then
+            game:GetService("Players").LocalPlayer.Character.LowerTorso:WaitForChild("BOOMBOXSOUND")
+                local cor = coroutine.wrap(function()
+                  repeat wait() until game:GetService("Players").LocalPlayer.Character.LowerTorso.BOOMBOXSOUND.SoundId == "rbxassetid://"..ID and game:GetService("Players").LocalPlayer.Character.LowerTorso.BOOMBOXSOUND.TimeLength > 0.0001
+                  OriginalKeyUpValue = OriginalKeyUpValue+1
+                  Stop(ID, OriginalKeyUpValue)
+				end)
+			cor()
+		end
+	end
+end
+Play(131062765,true)
+wait(5)
+game:GetService("Players").LocalPlayer.Character.LowerTorso.BOOMBOXSOUND:Stop()
+    end
+end)
+game.Players.LocalPlayer.Chatted:Connect(function(msg)
+    if msg == "Double Points!" then
+        function Play(ID, STOP)
+	if game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("[Boombox]") then
+		local Tool = nil
+		game:GetService("Players").LocalPlayer.Backpack["[Boombox]"].Parent = game:GetService("Players").LocalPlayer.Character
+		game:GetService("ReplicatedStorage").MainEvent:FireServer("Boombox", ID)
+		game:GetService("Players").LocalPlayer.Character["[Boombox]"].RequiresHandle = false
+          if game:GetService("Players").LocalPlayer.Character["[Boombox]"]:FindFirstChild("Handle") then
+            game:GetService("Players").LocalPlayer.Character["[Boombox]"].Handle:Destroy()
+          end
+          game:GetService("Players").LocalPlayer.Character["[Boombox]"].Parent = game:GetService("Players").LocalPlayer.Backpack
+          game:GetService("Players").LocalPlayer.PlayerGui.MainScreenGui.BoomboxFrame.Visible = false
+          if Tool ~= true then
+              if Tool then
+                  Tool.Parent = game:GetService("Players").LocalPlayer.Character
+              end
+          end
+          if STOP == true then
+            game:GetService("Players").LocalPlayer.Character.LowerTorso:WaitForChild("BOOMBOXSOUND")
+                local cor = coroutine.wrap(function()
+                  repeat wait() until game:GetService("Players").LocalPlayer.Character.LowerTorso.BOOMBOXSOUND.SoundId == "rbxassetid://"..ID and game:GetService("Players").LocalPlayer.Character.LowerTorso.BOOMBOXSOUND.TimeLength > 0.0001
+                  OriginalKeyUpValue = OriginalKeyUpValue+1
+                  Stop(ID, OriginalKeyUpValue)
+				end)
+			cor()
+		end
+	end
+end
+Play(131149750,true)
+wait(2)
+game:GetService("Players").LocalPlayer.Character.LowerTorso.BOOMBOXSOUND:Stop()
+    end
+end)
+game.Players.LocalPlayer.Chatted:Connect(function(msg)
+    if msg == "*Anger*" then
+        function Play(ID, STOP)
+	if game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("[Boombox]") then
+		local Tool = nil
+		game:GetService("Players").LocalPlayer.Backpack["[Boombox]"].Parent = game:GetService("Players").LocalPlayer.Character
+		game:GetService("ReplicatedStorage").MainEvent:FireServer("Boombox", ID)
+		game:GetService("Players").LocalPlayer.Character["[Boombox]"].RequiresHandle = false
+          if game:GetService("Players").LocalPlayer.Character["[Boombox]"]:FindFirstChild("Handle") then
+            game:GetService("Players").LocalPlayer.Character["[Boombox]"].Handle:Destroy()
+          end
+          game:GetService("Players").LocalPlayer.Character["[Boombox]"].Parent = game:GetService("Players").LocalPlayer.Backpack
+          game:GetService("Players").LocalPlayer.PlayerGui.MainScreenGui.BoomboxFrame.Visible = false
+          if Tool ~= true then
+              if Tool then
+                  Tool.Parent = game:GetService("Players").LocalPlayer.Character
+              end
+          end
+          if STOP == true then
+            game:GetService("Players").LocalPlayer.Character.LowerTorso:WaitForChild("BOOMBOXSOUND")
+                local cor = coroutine.wrap(function()
+                  repeat wait() until game:GetService("Players").LocalPlayer.Character.LowerTorso.BOOMBOXSOUND.SoundId == "rbxassetid://"..ID and game:GetService("Players").LocalPlayer.Character.LowerTorso.BOOMBOXSOUND.TimeLength > 0.0001
+                  OriginalKeyUpValue = OriginalKeyUpValue+1
+                  Stop(ID, OriginalKeyUpValue)
+				end)
+			cor()
+		end
+	end
+end
+Play(131060194,true)
+wait(4)
+game:GetService("Players").LocalPlayer.Character.LowerTorso.BOOMBOXSOUND:Stop()
+    end
+end)
+game.Players.LocalPlayer.Chatted:Connect(function(msg)
+    if msg == "Growl!" then
+        function Play(ID, STOP)
+	if game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("[Boombox]") then
+		local Tool = nil
+		game:GetService("Players").LocalPlayer.Backpack["[Boombox]"].Parent = game:GetService("Players").LocalPlayer.Character
+		game:GetService("ReplicatedStorage").MainEvent:FireServer("Boombox", ID)
+		game:GetService("Players").LocalPlayer.Character["[Boombox]"].RequiresHandle = false
+          if game:GetService("Players").LocalPlayer.Character["[Boombox]"]:FindFirstChild("Handle") then
+            game:GetService("Players").LocalPlayer.Character["[Boombox]"].Handle:Destroy()
+          end
+          game:GetService("Players").LocalPlayer.Character["[Boombox]"].Parent = game:GetService("Players").LocalPlayer.Backpack
+          game:GetService("Players").LocalPlayer.PlayerGui.MainScreenGui.BoomboxFrame.Visible = false
+          if Tool ~= true then
+              if Tool then
+                  Tool.Parent = game:GetService("Players").LocalPlayer.Character
+              end
+          end
+          if STOP == true then
+            game:GetService("Players").LocalPlayer.Character.LowerTorso:WaitForChild("BOOMBOXSOUND")
+                local cor = coroutine.wrap(function()
+                  repeat wait() until game:GetService("Players").LocalPlayer.Character.LowerTorso.BOOMBOXSOUND.SoundId == "rbxassetid://"..ID and game:GetService("Players").LocalPlayer.Character.LowerTorso.BOOMBOXSOUND.TimeLength > 0.0001
+                  OriginalKeyUpValue = OriginalKeyUpValue+1
+                  Stop(ID, OriginalKeyUpValue)
+				end)
+			cor()
+		end
+	end
+end
+Play(131060145,true)
+wait(3)
+game:GetService("Players").LocalPlayer.Character.LowerTorso.BOOMBOXSOUND:Stop()
+    end
+end)
+game.Players.LocalPlayer.Chatted:Connect(function(msg)
+    if msg == "Round 1" then
+        function Play(ID, STOP)
+	if game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("[Boombox]") then
+		local Tool = nil
+		game:GetService("Players").LocalPlayer.Backpack["[Boombox]"].Parent = game:GetService("Players").LocalPlayer.Character
+		game:GetService("ReplicatedStorage").MainEvent:FireServer("Boombox", ID)
+		game:GetService("Players").LocalPlayer.Character["[Boombox]"].RequiresHandle = false
+          if game:GetService("Players").LocalPlayer.Character["[Boombox]"]:FindFirstChild("Handle") then
+            game:GetService("Players").LocalPlayer.Character["[Boombox]"].Handle:Destroy()
+          end
+          game:GetService("Players").LocalPlayer.Character["[Boombox]"].Parent = game:GetService("Players").LocalPlayer.Backpack
+          game:GetService("Players").LocalPlayer.PlayerGui.MainScreenGui.BoomboxFrame.Visible = false
+          if Tool ~= true then
+              if Tool then
+                  Tool.Parent = game:GetService("Players").LocalPlayer.Character
+              end
+          end
+          if STOP == true then
+            game:GetService("Players").LocalPlayer.Character.LowerTorso:WaitForChild("BOOMBOXSOUND")
+                local cor = coroutine.wrap(function()
+                  repeat wait() until game:GetService("Players").LocalPlayer.Character.LowerTorso.BOOMBOXSOUND.SoundId == "rbxassetid://"..ID and game:GetService("Players").LocalPlayer.Character.LowerTorso.BOOMBOXSOUND.TimeLength > 0.0001
+                  OriginalKeyUpValue = OriginalKeyUpValue+1
+                  Stop(ID, OriginalKeyUpValue)
+				end)
+			cor()
+		end
+	end
+end
+Play(131057316,true)
+wait(10)
+game:GetService("Players").LocalPlayer.Character.LowerTorso.BOOMBOXSOUND:Stop()
+    end
+end)
